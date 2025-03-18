@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #dbdbdb;
 }
 
 header {
-    background-color: #eba5a5;
+    background-color: #52c4d8;
     color: #fff;
     padding: 1px 0;
     text-align: center;
@@ -41,7 +41,7 @@ main {
 footer {
     text-align: center;
     padding: 5px 0;
-    background-color: #f18888;
+    background-color: #2dcae6;
     color: #fff;
     width: 100%;
     bottom: 0;
@@ -50,8 +50,8 @@ footer {
 .gallery img {
     width: 100%;
     max-width: 300px;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 15px;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -61,11 +61,11 @@ footer {
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: 15px 0;
     }
 
     main {
-        margin: 10px;
+        margin: 15px;
     }
 
     .gallery {
@@ -75,11 +75,11 @@ footer {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px;
+        font-size: 34px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .gallery {
